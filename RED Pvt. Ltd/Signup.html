@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<HEAD><style type="text/css">
+input{height: 20px;}
+#go{background-color: #FF0004;}
+</style></HEAD>
+<BODY BGCOLOR=#A0B85F>
+
+<FONT SIZE="6px">
+<FORM NAME="signup" ENCTYPE="TEXT/PLAIN"><SCRIPT>
+function conf(){alert("You will be sent a confirmatory email soon");window.open("Home.html")}
+</SCRIPT>
+NAME
+<INPUT  REQUIRED NAME="fname" TYPE="Text">
+<INPUT TYPE="Text" NAME="mname">
+<INPUT REQUIRED NAME="lname" TYPE="Text">
+<BR><BR>
+
+USERNAME
+<INPUT TYPE="Text" REQUIRED NAME="usname">
+<BR><BR>
+
+DATE OF BIRTH
+<INPUT TYPE="DATE" REQUIRED NAME="dob"><BR><BR>
+
+RED NUMBER
+<INPUT TYPE="NUMERIC" SIZE="12" ID="num"><BR><BR>
+
+E-MAIL
+<INPUT TYPE="EMAIL" NAME="mail"><BR><BR>
+
+GENDER
+<INPUT TYPE="RADIO" VALUE="Male" NAME="gen">Male</INPUT> <INPUT TYPE="RADIO" VALUE="Female" NAME="gen">Female</INPUT><BR><BR>
+
+PASSWORD
+<INPUT TYPE="PASSWORD" REQUIRED NAME="pass"><BR><BR>
+<INPUT TYPE="Reset"> &nbsp;
+ <INPUT id="go" TYPE="Submit" VALUE="Go RED" OnClick="conf()">
+<BR><BR><BR><BR><BR>
+</FORM>
+</FONT></BODY>
+</HTML>

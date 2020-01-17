@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Store</TITLE>
+</HEAD>
+<BODY BGCOLOR=#ADD8E6>
+
+<CENTER><FONT FACE="COMIC SANS MS" SIZE="45"><B>
+WELCOME TO THE RED STORE</B>
+</FONT></CENTER>
+<HR WIDTH=100% HEIGHT=10%>
+<TABLE ALIGN="Center"><CAPTION><FONT FACE="COMIC SANS MS"><B><H1>
+Prepaid Mobile Online Recharge</H1></B></FONT></CAPTION>
+                  <TR>
+<FORM name="Recharge" ENCTYPE="TEXT/PLAIN">
+                      
+<TD ALIGN="Right">Enter Phone Number:</TD> 
+                      <TD>
++91
+<INPUT TYPE="Number" NAME="Pno" SIZE="10"></TD>
+                  </TR>
+
+                  <TR ALIGN="Right">
+                       <TD>Enter Amount:</TD>
+                       <TD>
+₹
+<INPUT TYPE="Number" NAME="Amount" SIZE="5" MIN="1"></TD>
+                  </TR>
+
+<SCRIPT>
+function calculate()
+
+                   {
+                     var rate;
+                     
+                     var databal;
+         
+                     var num=document.forms["Recharge"]["Pno"].value;
+          
+                     var amnt=document.forms["Recharge"]["Amount"].value;
+       
+               
+                                if(num=="7607782655")         
+                                          {
+                           
+                                            rate=1;      // For Normal Member
+                           
+                                            databal=(rate*amnt);
+                                        
+                                            alert("You get Rs " + databal + " talktime");
+                                  
+                                          }
+                                     
+                                else if(num=="8563910821")
+         
+                                          {
+                                          
+                                            rate=1.5;     // For Prime Member
+                                             
+                                            databal=(rate*amnt);
+                                          
+                                            alert("You get Rs " + databal + " talktime");
+                                      
+                                          }
+                                   
+                                else
+                                          
+                                            alert("Number not Registered!");
+  
+                 
+                   }
+
+</SCRIPT>
+<TD></TD><TD>
+<INPUT TYPE="Button" VALUE="Go" onclick="calculate()"></TD></TR>
+
+</FORM>
+</TABLE>
+<TABLE ALIGN="Center"><CAPTION><FONT FACE="COMIC SANS MS"><B><H1>
+Postpaid Mobile Online Recharge</H1></B></FONT></CAPTION>
+                  <TR>
+<FORM name="Recharg" ENCTYPE="TEXT/PLAIN">
+                      
+<TD ALIGN="Right">Enter Phone Number:</TD> 
+                      <TD>
++91
+<INPUT TYPE="Number" NAME="Pno" SIZE="10"></TD>
+                  </TR>
+
+                  <TR ALIGN="Right">
+                       <TD>Enter Amount:</TD>
+                       <TD>
+₹
+<INPUT TYPE="Number" NAME="Amount" SIZE="5" MIN="1"></TD>
+                  </TR>
+
+<SCRIPT>
+function calculat()
+
+                   {
+                     var rate;
+                     
+                     var databal;
+         
+                     var num=document.forms["Recharg"]["Pno"].value;
+          
+                     var amnt=document.forms["Recharg"]["Amount"].value;
+       
+               
+                                if(num=="7607782655")         
+                                          {
+                           
+                                            rate=1;                                
+                                            databal=(rate*amnt);
+                                        
+                                            alert("Your bill of Rs " + databal + " is been paid");
+                                  
+                                          }
+                                     
+                                else if(num=="8563910821")
+         
+                                          {
+                                          
+                                            rate=1;                                             
+                                            databal=(rate*amnt);
+                                          
+                                            alert("Your bill of Rs " + databal + " is been paid");                                      
+                                          }
+                                   
+                                else
+                                          
+                                            alert("Number not Registered!");
+  
+                 
+                   }
+
+</SCRIPT>
+<TD></TD><TD>
+<INPUT TYPE="Button" VALUE="Go" onclick="calculat()"></TD></TR>
+
+</FORM>
+</TABLE>
+<FONT FACE="COMIC SANS MS" SIZE="25"><B>Red Broadband</B></FONT>
+
+<P><H2>Introducing <FONT COLOR=#FF0000><B>Red</B></FONT> <B>Broadband</B> the fastest 
+broadband on Earth. </H2></P>
+
+<IMG SRC="Resources/Redband.jpg" HEIGHT ="200" WIDTH ="1332">
+
+<P><H2>
+<FONT COLOUR=#FF0000>RED</FONT> Broadband 
+is the fastest broadband which uses fibre optic cables to transfer data 
+                                  with a 
+maximum transfer rate observed 119 Mbps. 
+
+</H2></P>
+
+
+<BR>
+<P>
+To get a new connection contact our RED team at +9118881888
+
+</P>
+
+
+
+</BODY>
+</HTML>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY BGCOLOR=#A0B85F BACKGROUND="Resources/back.jpg">
+
+<CENTER><TABLE BORDER="2" WIDTH=50%><TR><TD>
+<FORM name="Login" ENCTYPE="TEXT/PLAIN"><FONT COLOR=#7F5033>
+Username<BR>
+<INPUT TYPE="Text" Name="usname">
+<BR><BR>
+Password<BR></FONT>
+<INPUT TYPE="Password" Name="pass">
+<SCRIPT>
+function validate()
+                  {
+                   var u=document.forms["Login"]["usname"].value;
+                   var p=document.forms["Login"]["pass"].value;
+                   if(u=="shreynig@m" && p=="76077")
+                                                     window.location.href="file:NHome.html"; 
+                   else if(u=="har$hit" && p=="8563")
+                                                     window.location.href="file:PHome.html";
+                   else  
+                                                     alert("Invalid Login ID");
+                  }
+</SCRIPT>
+<BR><BR><BR><BR>
+<INPUT TYPE="Button" NAME="login" VALUE="Login" onclick="validate()">
+</FORM></TD></TR><TR><TD>
+<B>Don't have an ID?</B> <A HREF="signup.html">Create an ID</A>
+</TD></TR></TABLE></CENTER>
+
+
+</BODY>
+</HTML>
