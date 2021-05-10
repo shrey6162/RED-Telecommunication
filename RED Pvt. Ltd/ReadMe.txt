@@ -8,12 +8,6 @@ only if JavaScript is enabled.
 -------------------------------------------------------------------------------------------------------------
 Use the following presigned users for logging in.
 
-[For General Member]
 USERNAME:shreynig@m
 PASSWORD:76077
 Phone Number:7607782655
-
-[For Prime Member]
-USERNAME:har$hit
-PASSWORD:8563
-Phone Number:8563910821
